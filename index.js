@@ -33,7 +33,7 @@ module.exports = function(req, res, next) {
  * Return the flash object from the session and delete the old state. 
  *
  * @param {Object} the session object
- * @api public
+ * @api private
  */
 
 function pull(session) {
@@ -48,8 +48,9 @@ function pull(session) {
 /**
  * Push the notification details to the current flash object. 
  *
- * @param {Object} the session object
- * @api public
+ * @param {Mixed} the message object
+ * @param {String} flash message details
+ * @api private
  */
 
 function push(message, details) {
