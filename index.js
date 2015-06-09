@@ -1,6 +1,15 @@
 'use strict'
 
+/**
+ * Module dependencies.
+ */
+
 var assert = require('assert')
+
+
+/**
+ * Expose the middleware.
+ */
 
 module.exports = function(req, res, next) {
 
@@ -20,6 +29,13 @@ module.exports = function(req, res, next) {
 
 }
 
+/**
+ * Return the flash object from the session and delete the old state. 
+ *
+ * @param {Object} the session object
+ * @api public
+ */
+
 function pull(session) {
 
   var flash = session.flash
@@ -28,6 +44,13 @@ function pull(session) {
 
   return flash
 }
+
+/**
+ * Push the notification details to the current flash object. 
+ *
+ * @param {Object} the session object
+ * @api public
+ */
 
 function push(message, details) {
 
