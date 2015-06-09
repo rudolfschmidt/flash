@@ -49,7 +49,7 @@ function pull(session) {
  * Push the notification details to the current flash object. 
  *
  * @param {Mixed} the message object
- * @param {String} flash message details
+ * @param {Mixed} flash message details
  * @api private
  */
 
