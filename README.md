@@ -16,7 +16,7 @@ app.use(require('cookie-session')({
   secret: 'secret'
 })) // or other session middleware exposing res.flash functionality
 
-app.use(require('flash'))
+app.use(require('flashjs'))
 ```
 
 ```js
