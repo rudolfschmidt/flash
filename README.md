@@ -1,4 +1,4 @@
-# flash
+# flashjs
 
 A simple flash middleware for expressjs
 

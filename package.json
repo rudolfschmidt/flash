@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rudolfschmidt/flash.git"
+    "url": "git+https://github.com/rudolfschmidt/flashjs.git"
   },
   "author": "Rudolf Schmidt <mail@rudolfschmidt.com> (http://www.rudolfschmidt.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rudolfschmidt/flash/issues"
+    "url": "https://github.com/rudolfschmidt/flashjs/issues"
   },
-  "homepage": "https://github.com/rudolfschmidt/flash#readme"
+  "homepage": "https://github.com/rudolfschmidt/flashjs#readme"
 }
