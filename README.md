@@ -5,7 +5,7 @@ A simple flash middleware for expressjs
 ## Usage
 
 ```bash
-npm install flash
+npm install flashjs
 ```
 
 ```js
