@@ -56,3 +56,7 @@ if flash.success
   .alert.alert-success
     strong Your email address #{flash.success.email} was updated successfully. 
 ```
+
+## License
+
+[MIT](LICENSE)
